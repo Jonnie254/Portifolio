@@ -17,7 +17,41 @@ a{
 a:hover{
     color: #5e3bee !important;
 }
-nav .logo img{
+h5{
+    font-size: 20px;
+}
+li{
+    list-style:none;
+}
+nav{
+    background-color:#fff;
+    position:sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.1);
+}
+ nav .logo, footer .logo{
+    display: flex;
+    align-items: center;
+ }
+ nav .logo a, footer .logo a{
+    margin-left:8px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+nav .logo img, footer .logo img{
     width: 40px;
     height:40px;
+}
+nav ul, footer .top ul{
+    display:flex;
+    gap: 40px;
+}
+nav button{
+    color: #1c1e53;
+    
 }
