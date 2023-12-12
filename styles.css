@@ -76,4 +76,33 @@ nav button#menuButton{
     background-color: #deebee;
     padding: 90px 85px;
     display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+ }
+ .main .left{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+ }
+.main .left h3{
+    margin-top:10px;
+    font-weight:bold;
+    font-size:46px;
+}
+.main .left h3 span{
+    color:#5e3bee;
+}
+.main .left button{
+    margin-top: 40px;
+    
+}
+.main .left p{
+    color: #1c1e53;
+    font-size:22px;
+    margin-top:20px;
+}
+ .main .right img{
+    width: 300px;
+
  }
